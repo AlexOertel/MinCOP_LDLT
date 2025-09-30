@@ -1,5 +1,5 @@
 # Code for "On Computing the Copositive Minimum and its Representatives"
-This repository contains an implementation of the algorithms described in the paper "On Computing the Copositive Minimum and its Representatives" by Oertel and Schürmann (2025, arxiv link). Moreover, the code as well as the example matrices used in testing and generating the numerical results are provided.
+This repository contains an implementation of the algorithms described in the paper "On Computing the Copositive Minimum and its Representatives" by Oertel and Schürmann (2025, https://arxiv.org/abs/2509.23696). Moreover, the code as well as the example matrices used in testing and generating the numerical results are provided.
 
 ## Requirements
 The code was run using Python 3.12.3. Further requirements are Numpy 1.26.4, Gurobi 11.0.3 (for solving convex quadratic problems), cvxpy 1.6.4 (+CVXOPT Solver 1.3.0 and OSQP Solver 0.6.7.post3) and pandas 2.1.4 (for testing). Note that these are only the versions we developed against, but we believe that most current versions should suffice.
