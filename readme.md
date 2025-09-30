@@ -8,7 +8,7 @@ The code was run using Python 3.12.3. Further requirements are Numpy 1.26.4, Gur
 To calculate the copositive minimum of a strictly copositive matrix use `python src/calculate_cop_min.py <O or SPN> <filename>`.
 The argument *O* or *SPN* decides whether the one difficult coordinate code or the SPN code is used.
 
-To run the testing of the example matrices run `python run_tests.pu` twice. The first time generates a file *results* in which the results of the second run are recorded. This script supports stopping and resuming by just aborting and restarting, with the intermediate results being recorded in the *results* files.
+To run the testing of the example matrices run `python run_tests.py` twice. The first time generates a file *results* in which the results of the second run are recorded. This script supports stopping and resuming by just aborting and restarting, with the intermediate results being recorded in the *results* files.
 
 ## Notes on the Code
 This is an in large parts unoptimized and preliminary implementation. There is some support for using arbitrary simplicial cones, instead of the nonnegative orthant, as well (in the one negative difficult coordinate case). There is, although a strategy is indicated in the paper, currently no support for matrices, where no principle rearrangement admits an LDLT-decomposition, since these matrices seem to be quite rare.
